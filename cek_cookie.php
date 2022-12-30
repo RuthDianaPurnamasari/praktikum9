@@ -8,6 +8,6 @@ if(isset($HTTP_COOKIE_VARS["cookie_no_induk"]))
 }else
 {
     header("Location: cookie.php");
-    exit
+    exit;
 }
 ?>
